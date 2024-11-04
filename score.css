@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Hanken;
+    src: url(./HankenGrotesk-VariableFont_wght.ttf);
+}
+#main{
+    border: 1px solid black;
+    box-shadow: 50px 20px 50px #e5f2fc;
+    width: 23cm;
+    border-radius: 30px;
+    margin-top: 7.3cm;
+    margin-left: 20cm;
+    display: flex;
+}
+#left-mini{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%) ,25%, hsl(241, 81%, 54%));
+    border: 1px solid black;
+    width: 11.4cm;
+    height: 17cm;
+    border-radius: 30px;
+}
+#mark{
+    background: hsla(241, 72%, 46%, 0);
+    color: white;
+    border: 1px solid black;
+    width: 6cm;
+    height: 6cm;
+    margin-left: 2.5cm ;
+    margin-top: 1.5cm;
+    border-radius: 4cm;
+}
+.know{
+    color: white;
+    text-align: center;
+    font-family: Hanken;
+    font-weight: 500;
+    font-size: 1cm;
+}
+.subs{
+    color: white;
+    font-family: Hanken;
+    font-size: x-large;
+    text-align: center;
+
+}
+#right-mini{
+    width: 45%;
+}
+#sum{
+    margin-top: 1.4cm;
+    margin-left: -3.7cm;
+    color: black;
+}
+.sub-div{
+    border: 1px solid black;
+    width: 2cm;
+    margin-left: 1cm;
+    width: 9cm;
+    margin-top: 30px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+}
+#button{
+    background-color: #0c3861;
+    color: white;
+    border: 1px solid black;
+    width: 9cm;
+    margin-left: 1cm;
+    text-align: center;
+    font-family: Hanken;
+    border-radius: 37px;
+    height: 1.7cm;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 1.3cm;
+}
+.image{
+    width: 26px;
+    margin-left: 10px;
+}
+.sub-sum{
+    display: inline-block;
+    font-family: Hanken;
+    margin-left: 10px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 25px;
+}
+.marks{
+    margin-left: 110px;
+    float: right;
+    font-family: Hanken;
+    font-size: 18px;
+    margin-top: 15px;
+}
+#mark{
+    font-family: Hanken;
+    text-align: center;
+}
+#result{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 90px;
+}
+#total{
+    margin-top: -100px;
+    font-family: Hanken;
+}
+#reaction{
+    background-color: hsl(0, 70%, 95%);
+    color: hsl(0, 100%, 67%);
+}
+#memory{
+    background-color: hsl(43, 100%, 94%);
+    color: hsl(39, 100%, 56%);
+}
+#verbal{
+    background-color: hsl(167, 70%, 96%);
+    color: hsl(166, 100%, 37%);
+}
+#visual{
+    background-color: hsl(234, 71%, 97%);
+    color: hsl(234, 85%, 45%);
+}
+#button:hover{
+    cursor: pointer;
+}
+.great{
+    font-weight: 900;
+}
